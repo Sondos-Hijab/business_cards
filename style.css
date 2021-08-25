@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    src: url(NeoSansArabic.ttf);
+    font-family: 'PaltelFont';
+}
+
+@font-face{
+    src: url(NeoSansArabicBold.ttf);
+    font-family: 'PaltelFontBold';
+}
+
+body{
+
+    margin: 0;
+    background: #fff;
+
+}
+.card{
+    position: relative;
+    background-color: white;
+    height: 560px;
+    width: 300px;
+    margin: 60px auto;
+    background-color: #FBFBFB;
+    border-radius: 2%;
+}
+.header{
+    /* position: absolute; */
+    height: 220px;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color:#00a0d7 ;
+    border-radius: 2% 2% 100% 100%;
+    text-align: center;
+}
+
+.header img{
+    position: relative;
+    top: calc(100% - 130px);
+    border: 4px solid #fff;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.download1{
+    position: absolute;
+    cursor: pointer;
+    right: 0px;
+    width: 27px;
+    margin: 8px;
+    top: 0;
+}
+
+
+.header h3{
+    position: absolute;
+    color: #00a0d7;
+    font-weight: 600;
+    letter-spacing: 1px;
+    top: 250px;
+    left: 70px;
+}
+h3{
+    font-family: 'PaltelFontBold';
+    font-size: 20px;
+}
+.body{
+    padding: 0px;
+    margin-top: 40px;
+    font-family: 'PaltelFont';
+}
+.body li{
+    margin-left: 3em;
+    padding-bottom: 15px;
+    list-style: none;
+}
+.body li span{
+    font-size: 14px;
+    margin-left: 3em;
+}
+ul {
+    align-items: center;
+    margin-top: 14px;
+}
+#fln{
+    text-align: center;
+    color:#00a0d7;
+}
+

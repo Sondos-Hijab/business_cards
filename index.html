@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Business Card</title>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+      <div class="b-card">
+          <div class="header">
+              <img class="person_photo" src="Maen.jpeg">
+          </div>
+          
+          <a href="https://vcard.link/card/DJGP.vcf"><input class="download1" type="image" src="download1.svg"  ></a>
+          <div class="body">
+            <h3 id="fln">Maen Melhem</h3>
+              <ul>
+                  <li>
+                      <img src="email.png" >
+                      <span id="email">Maen.Melhem@Paltel.ps</span>
+                  </li>
+                  <li>
+                    <img src="mobile.png">
+                    <span id="mobile">+970592221515</span>
+                    
+                </li>
+                <li>
+                  <img src="phone.png">
+                    <span id="phone">+97092301515</span>
+                    
+                </li>
+
+                <li>
+                  <img src="job.png">
+                  <span id="jobTitle">General Manager, CEO Directorate</span>
+                    
+                </li>
+
+                <li>
+                  <img src="linkedIn.png">
+                    <span id="linkedin">maen-melhem</span>
+                    
+                </li>
+                <li>
+                  <img src="location.png">
+                    <span id="location">Paltel-HQ-Rafedia</span>
+                    
+                </li>
+              </ul>
+          </div>
+        
+      </div>
+
+
+<form  style="display:none;" action="" method="post">
+    <fieldset>
+        <legend>You</legend>
+    <p><label>First name</label><input hidden value="Maen" type="text" name="first_name" size="40"></p>
+    <p><label>Last name</label><input value="Melhem" type="text" name="last_name" size="40"></p>
+        <p><label>Birthday</label><input type="text" name="birthday" size="40"></p>
+        <p><label>Gender</label><select name="gender">
+            <option></option>
+            <option value="Female">Female</option>
+            <option value="Male">Male</option>
+            </select></p>
+    </fieldset>
+    <fieldset>
+        <legend>Home</legend>
+        <p><label>Street and number</label><input type="text" name="home_street" size="40"></p>
+        <p><label>City</label><input type="text" name="home_city" size="40"></p>
+        <p><label>Postal code</label><input type="text" name="home_region" size="40"></p>
+        <p><label>Region</label><input type="text" name="home_post"  size="40"></p>
+        <p><label>Country</label><input type="text" name="home_country" size="40"></p>
+        <p><label>Telephone</label><input type="text" name="home_tel" value="+970592221515"size="40"></p>
+        <p><label>E-mail</label><input type="text" name="home_email" size="40"></p>
+        <p><label>Website</label><input type="text" name="home_url" size="40"></p>
+    </fieldset>
+    <fieldset>
+        <legend>Work</legend>
+        <p><label>Job title</label><input type="text" value="General Manager, CEO Directorate"name="org_title" size="40"></p>
+        <p><label>Name</label><input type="text" name="org_name" size="40"></p>
+        <p><label>Street and number</label><input type="text" name="org_street" size="40"></p>
+        <p><label>City</label><input type="text" name="org_city" size="40"></p>
+        <p><label>Postal code</label><input type="text" name="org_region" size="40"></p>
+        <p><label>Region</label><input type="text" name="org_post" value="Paltel-HQ-Rafedia" size="40"></p>
+        <p><label>Country</label><input type="text" name="org_country" size="40"></p>
+        <p><label>Telephone</label><input type="text" name="org_tel" value="+97092301515" size="40"></p>
+        <p><label>E-mail</label><input type="text" value="Maen.Melhem@Paltel.ps"name="org_email" size="40"></p>
+        <p><label>Website</label><input type="text" name="org_url" size="40"></p>
+    </fieldset>
+    <fieldset>
+        <legend>Online services</legend>
+        <p><label>LinkedIn</label><input type="text" name="linkedin" size="40" value="maen-melhem"></p>
+        <p><label>Twitter</label><input type="text" name="twitter" size="40" value="http://www.twitter.com/"></p>
+        <p><label>Flickr</label><input type="text" name="flickr" size="40" value="http://www.flickr.com/"></p>
+        <p><label>Youtube</label><input type="text" name="youtube" size="40" value="http://www.youtube.com/"></p>
+        <p><label>LinkedIn</label><input type="text" name="linkedin" size="40"></p>
+    </fieldset>
+   
+</form>
+    <textarea  style="display:none;" id="text" name="vcard" cols="50" rows="20"></textarea>
+
+      <script type="text/javascript" src="java.js"></script>
+  </body>
+</html>
